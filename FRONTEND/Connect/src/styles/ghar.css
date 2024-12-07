@@ -1,0 +1,106 @@
+.heading{
+    color: orange;
+margin-left: 2.5rem;
+font-size: 40px;
+margin-top: 1rem;
+}
+
+.mainbox{
+   
+    height: 100vh;
+    width: 100%;
+   /* background-color: black; */
+   background-image: url("C:\Users\khand\OneDrive\study\My codes\Projects\Connect\FRONTEND\Connect\public\bc6.jpg");
+   background-size: cover;
+}
+
+.navBar{
+    
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar .logout{
+    margin-right: 25px;
+border: 2px solid black;
+border-radius: 30px;
+color: black;
+background-color: white;
+}
+
+.maincontainer{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincontainer .right{
+  width: 50%;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.maincontainer .right .image{
+    height:50vh;
+    width: 30vw;
+    border-radius: 25px;
+}
+
+.maincontainer .left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.connect{
+    font-size: 30px;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#outlined-basic{
+    background-color: #fff;
+    border: solid 5px orange;
+    border-radius: 30px;
+    margin-right: 15px;
+    height: 3rem;
+    width: 14vw;
+    padding-left: 5px;
+}
+
+.maincontainer .left .join{
+    border: solid 5px orange;
+   background-color: white;
+   color: black;}
+
+   .maincontainer .left .join:hover{
+    opacity: 0.6;
+   }
+
+   
+#outlined-basic:hover{
+    border: solid 5px white;
+}
+
+.logout:hover{
+    opacity: 0.5;
+}

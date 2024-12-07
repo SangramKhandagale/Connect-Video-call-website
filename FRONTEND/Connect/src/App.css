@@ -1,0 +1,99 @@
+/* *{
+  margin: 0;
+  padding: 0;
+}
+
+.landingpagecontainer{
+
+  
+  height: 100vh;
+  width: 100vw;
+  background:url("C:\Users\khand\OneDrive\study\My codes\Projects\Connect\FRONTEND\Connect\public\bc3.jpg") ;
+  background-repeat:no-repeat ;
+  background-size: cover;
+}
+
+.landingpagecontainer nav{
+  color: white;
+  padding-top: 1rem ;
+  padding-left:1rem ;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navHeader h2{
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.navList{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.landingMainContainer{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+ 
+  padding-top: 10vh;
+  align-items: center;
+}
+
+.landingMainContainer h1 span{
+  color: #ff9839;
+}
+
+.notall h1{
+  margin-bottom: 15px;
+  font-size: 45px;
+}
+
+.notall p{
+  
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.notall .special{
+  margin-bottom: 20px;
+}
+
+.notall{
+  margin-left: 10px;
+}
+
+
+.butt a{
+ 
+  background-color: orange;
+  padding: 5px;
+  border: solid 2px white;
+  text-decoration: none;
+  border-radius: 18px;
+  color: white;
+ 
+  font-size: 20px;
+
+}
+
+.mainpage{
+   background:url("C:\Users\khand\OneDrive\study\My codes\Projects\Connect\FRONTEND\Connect\public\bc3.jpg") ; 
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  */

@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-decoration: underline;
+
+}
+
+#outlined-basic{
+    color: white;
+    border: solid 2px white;
+    
+}
+
+.venom{
+    height: 100vh;
+    width: 100%;
+    background-image: url("C:\Users\khand\OneDrive\study\My codes\Projects\Connect\FRONTEND\Connect\public\bc2.jpg");
+    background-size: cover;
+
+}
+
+ /* .lobby{
+    height: 100vh;
+    width: 100%;
+    background-image: url("C:\Users\khand\OneDrive\study\My codes\Projects\Connect\FRONTEND\Connect\public\bc2.jpg");
+    background-size: cover;
+    }   */
+
+    #root > div > div > div.input > button{
+        color: white;
+        background-color:black;
+        border: solid 2px white;
+        border-radius: 30px;
+    }
+
+    #root > div > div > div.MuiFormControl-root.MuiTextField-root.css-1xp5r68-MuiFormControl-root-MuiTextField-root{
+        background-color: white;
+        border: solid 2px black;
+       
+    }
+
+    .venom{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .text{
+        color: white;
+        height: 5vh;
+        width: 13vw;
+        border: solid 2px white;
+        border-radius: 30px;
+        padding: 5px;
+        background-color: black;
+
+    }
+
+    .input{
+        margin-bottom: 20px;
+       
+    }
+
+    .lobbyvideo{
+        border-radius: 30px;
+        border: solid 5px black;
+        width: 40vw;
+       height: auto;
+       justify-content: center;
+    } 
+
+    /* #root > div > div > div:nth-child(3) > video{
+        border-radius: 30px;
+        border: solid 5px black;
+        width: 40vw;
+       height: auto;
+       justify-content: center;
+    } */
+
+.meetvideocontainer{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    height: fit-content;
+    width: 100%;
+    background-image: url("C:\Users\khand\OneDrive\study\My codes\Projects\Connect\FRONTEND\Connect\public\bc2.jpg");
+    background-size: cover;
+}
+
+    .meetvideo{
+        width: 20rem;
+        height: auto;
+        border: 2px solid black;
+        border-radius: 20px;
+        position:absolute;
+        bottom: 0;
+        right: 0;
+        margin-bottom:2rem ;
+       margin-right: 2rem;
+
+    }
+
+    .buttonContainer{
+        /* border: solid 2px black; */
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+        margin-bottom: 1.5rem;
+        bottom: 0;
+        position: absolute;
+        height: 6vh;
+        width: fit-content;
+        align-items: center;
+        background-color: white;
+    }
+
+   
+
+    .buttonContainer>button>svg{
+        font-size: 30px;
+        color: black;
+    }
+
+    .laluu>svg{
+       
+        color: red;
+    }
+
+
+   /* .samnewalekivideo{
+    width: 50vw;
+    height: 30vh;
+    min-width: 30vw;
+    border-radius: 10px;
+   }
+    
+
+     */
+
+     .allvideos{
+        margin-top: 1rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+     }
+
+     .samnewalekivideo{
+     height: 60vh;
+     width: fit-content;
+     min-width: 30vw;
+     border: solid 2px black;
+     border-radius: 20px;
+       
+       
+     }
+
+     .kaluu{
+        color: black;
+     }
+
+     
+.chatroom {
+    margin-top: 15px;
+    margin-right: 25px;
+    color: white;
+  background-image: url("C:\Users\khand\OneDrive\study\My codes\Projects\Connect\FRONTEND\Connect\public\chat3.jpg");
+  background-size: cover;
+    position: absolute;
+    right: 0;
+    height: 60vh;
+   width: 23%;
+   border-radius: 20px;
+}
+
+.chatContainer {
+   padding: 10px;
+}
+
+
+.chattingArea {
+ position: absolute;
+ bottom: 0;
+ margin-bottom: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.sender{
+    font-size: 20px
+}
+
+#root > div > div > div.chatroom > div > div.chattingArea > button{
+    background-color: black;
+}
+
+#root > div > div > div.chatroom > div > div.chattingArea > div{
+    color: black;
+    
+}
+
+.chaticon{
+    color: black;
+}
+
+
+#root > div > div > div.buttonContainer > span > button{
+    color: black;
+}
+
+#root > div > div > div.buttonContainer > button:nth-child(2) > svg > path{
+    color: red;
+}
+
+#root > div > div > div.buttonContainer > span > button > svg{
+    color: black;
+}
+
+.connectbutton:hover{
+    opacity: 0.7;
+}
+
+.buttonContainer>button>svg:hover{
+    opacity: 0.5;
+}
+
+.chaticon:hover{
+    opacity: 0.5;
+}
+
+.chatbox{
+    height: 2.5rem;
+    width: 15vw;
+    margin: 0.5rem;
+    border: solid 2px black;
+border-radius: 20px;
+padding: 0.2rem;
+}

@@ -1,0 +1,24 @@
+
+
+#root > div > div > div > div:nth-child(2) > button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.signin.css-1abvrni-MuiButtonBase-root-MuiButton-root{
+    background-color: black;
+}
+
+#root > div > div > div > div:nth-child(2) > button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.signup.css-1abvrni-MuiButtonBase-root-MuiButton-root{
+    background-color: black;
+}
+
+
+#root > div > div > div > form > button{
+    background-color: black;
+}
+
+
+.mainpage .card .cardo{
+    width: 23rem;
+    border-radius: 30px;
+}
+
+.buttons:hover{
+    opacity: 0.7;
+}
